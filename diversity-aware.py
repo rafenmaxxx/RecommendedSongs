@@ -1,9 +1,10 @@
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
+# Simulasi playlist dan kandidat
 np.random.seed(42)
-playlist = np.random.rand(3, 7)         # playlist awal: 3 lagu, 7 fitur
-candidates = np.random.rand(20, 7)      # 20 kandidat lagu
+playlist = np.random.rand(3, 7)
+candidates = np.random.rand(20, 7)
 similarities = [np.mean(cosine_similarity([c], playlist)) for c in candidates]
 
 # Ambil 10 kandidat paling mirip dan urutkan dari nilai tertinggi

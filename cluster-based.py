@@ -2,10 +2,10 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Simulasi lagu (playlist dan kandidat)
+# Simulasi playlist dan kandidat
 np.random.seed(42)
-playlist = np.random.rand(3, 7)  # 3 lagu dalam playlist
-candidates = np.random.rand(20, 7)  # 20 kandidat lagu
+playlist = np.random.rand(3, 7)
+candidates = np.random.rand(20, 7)
 all_songs = np.vstack([playlist, candidates])
 
 # Clustering semua lagu ke dalam 4 klaster
