@@ -1,5 +1,5 @@
 <h1 align="center"> Tugas Makalah IF2211 Strategi Algoritma </h1>
-<h1 align="center"> Pendekatan Greedy Algorithm dalam Fitur Recommended Songs </h1>
+<h1 align="center"> Pendekatan Greedy Algorithm dalam Fitur Recommended Songs pada Spotify </h1>
 
 _Source code_ implementasi studi kasus pemodelan pendekatan _greedy algorithm_ menggunakan _cosine similarity_ untuk sistem rekomendasi _Recommended Songs_ pada Spotify. Dibentuk sebagai studi kasus dalam pembentukan makalah "Penerapan Greedy Algorithm dalam Sistem Rekomendasi Lagu: Studi Kasus Fitur Recommended Songs pada Spotify".
 
